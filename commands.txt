@@ -47,3 +47,22 @@ for file_ in files :
 
 
 python template.py 
+
+
+DOWNLOAD DATA files
+
+https://drive.google.com/drive/folders/18zqQiCJVgF7uzXgfbIJ-04zgz1ItNfF5?usp=sharing
+
+
+mkdir data_given
+copy downloaded csv file in data_given folder 
+
+
+115  git init
+  116  dvc init
+  117  dvc add data_given/winequality.csv
+  118  git add .
+  119  git commit -m "first commit"
+
+
+git add . && gir commit -m "update 1"
