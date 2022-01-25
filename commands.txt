@@ -65,4 +65,10 @@ copy downloaded csv file in data_given folder
   119  git commit -m "first commit"
 
 
-git add . && gir commit -m "update 1"
+git add . && git commit -m "update 1"
+
+
+git remote add origin https://github.com/vishymails/simple_app.git
+git branch -M main
+git push -u origin main
+
